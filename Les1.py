@@ -5,22 +5,20 @@ print(result)
 
 
 
-import codecs
-
 myString = "\a"
-print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+print(myString)
 myString = "\b"
-print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+print(myString)
 myString = "\n"
-print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+print(myString)
 myString = "\t"
-print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+print(myString)
 myString = "\"\""
-print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+print(myString)
 myString = "\""
-print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+print(myString)
 myString = "\'"
-print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+print(myString)
 
 
 x = 10
