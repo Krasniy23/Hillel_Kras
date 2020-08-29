@@ -26,23 +26,9 @@ print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
 
 x = 10
 y = 2
-print(x, y)
-
-x = 10
-y = 2
-print(x + y)
-
-x = 10
-y = 2
+a = x + y
 z = x / y
-print(z)
+n = x % y
+m = x ^ y
+print(x, y, a, z, n, m)
 
-x = 10
-y = 2
-z = x % y
-print(z)
-
-x = 10
-y = 2
-z = x ^ y
-print(z)
