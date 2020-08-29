@@ -1,4 +1,48 @@
 import pyfiglet
 
-result = pyfiglet.figlet_format("D I M A", font = "3-d" )
+result = pyfiglet.figlet_format("D I M A", font="3-d")
 print(result)
+
+
+
+import codecs
+
+myString = "\a"
+print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+myString = "\b"
+print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+myString = "\n"
+print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+myString = "\t"
+print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+myString = "\"\""
+print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+myString = "\""
+print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+myString = "\'"
+print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
+
+
+
+x = 10
+y = 2
+print(x, y)
+
+x = 10
+y = 2
+print(x + y)
+
+x = 10
+y = 2
+z = x / y
+print(z)
+
+x = 10
+y = 2
+z = x % y
+print(z)
+
+x = 10
+y = 2
+z = x ^ y
+print(z)
