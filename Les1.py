@@ -23,7 +23,6 @@ myString = "\'"
 print(codecs.escape_decode(bytes(myString, "utf-8"))[0].decode("utf-8"))
 
 
-
 x = 10
 y = 2
 a = x + y
