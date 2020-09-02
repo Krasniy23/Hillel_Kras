@@ -1,7 +1,5 @@
-x = int(input("sign(x): "))
-if x < 0:
-    print(-1)
-elif x > 0:
-    print(1)
+year = int(input())
+if (year % 4 == 0) and (year % 100 != 0) or (year % 400 == 0):
+    print('YES')
 else:
-    print(0)
+    print('NO')
