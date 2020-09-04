@@ -1,7 +1,4 @@
-import math
-x = float(input("Enter numbers: "))
-y = x-math.floor(x*10)
-print(y)
-
-
+X = float(input("Enter a fractional number: "))
+x = X % 1
+print(round(x, 1))
 
