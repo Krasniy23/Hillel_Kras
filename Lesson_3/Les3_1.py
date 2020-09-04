@@ -1,0 +1,5 @@
+n, a, b = input("Enter three-digit number: ")
+n = int(n)
+a = int(a)
+b = int(b)
+print("Count number: ", n + a + b)
