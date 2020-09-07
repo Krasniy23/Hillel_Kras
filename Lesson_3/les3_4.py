@@ -1,5 +1,5 @@
-num_list = [100, 106, 112, 118, 124, 130, 136, 142, 148, 154, 160, 166, 172, 178, 184, 190, 196]
+num_list = range(100, 202, 6)
 for num in num_list:
-    if num % 5 == 0 or num <= 150:
+    if num % 5 == 0 and num < 150:
         print()
-print(num_list)
+    print(num)
