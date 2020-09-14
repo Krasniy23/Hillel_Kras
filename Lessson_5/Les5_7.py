@@ -7,5 +7,5 @@ try:
     data = datetime.date(year, month, date)
     print(data)
     print("True")
-except:
+except ValueError:
     print("False")
