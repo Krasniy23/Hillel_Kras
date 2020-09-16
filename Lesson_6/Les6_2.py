@@ -1,6 +1,9 @@
 from datetime import datetime
 
-now = datetime.now()
-time = now.strftime("%H:%M:%S")
-print()
-print("time is now:", time)
+count_down = 3
+while (count_down):
+    print(count_down)
+    count_down -= 1
+    now = datetime.now()
+    time = now.strftime("%H:%M:%S")
+print("Time is now:", time)
