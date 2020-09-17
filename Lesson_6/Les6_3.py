@@ -1,4 +1,3 @@
-dict_1 = ['a', 'b', 'c', 'd', 'e']
-dict_2 = [0, 1, 2, 3, 4]
-for value in dict_2 + dict_1:
-    print(value)
+some_list = ['a', 'b', 'c', 'd', 'e']
+some_list_2 = {key: value for key , value in enumerate(some_list)}
+print(some_list_2)
