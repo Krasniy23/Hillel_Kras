@@ -13,5 +13,5 @@ weather_data = weather_request.json()
 pprint(weather_data)
 
 with open('20-09-2020-Odessa-5-days-weather-forecast.txt', 'w', encoding="utf-8") as file_object:
-    weather_data = fileobject.write(strftime("%d-%m-%Y"))
+    weather_data = file_object.write(strftime("%d-%m-%Y"))
 pprint(weather_data)
