@@ -1,6 +1,6 @@
-slovo_polindrom = str(input())
-a = slovo_polindrom[::-1]
-if slovo_polindrom == a:
-    print("это полиндром")
+slovo_polindrom = str(input("Введите что то и узнаем полинром это или нет: "))
+value = slovo_polindrom[::-1]
+if slovo_polindrom == value:
+    print("Это полиндром, Поздравляю!")
 else:
-    print("а это не полиндром")
+    print("А это не полиндром, Увы!")
