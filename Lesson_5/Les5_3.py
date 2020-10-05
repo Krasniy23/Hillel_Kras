@@ -1,9 +1,7 @@
-from math import sqrt
-
-def length(x1, y2):
-    dx = x1
-    dy = y2
-    s = sqrt(dx*dy)
-    return s
-
-print(map(int, input().split()))
+import math
+a = int(input('Первая сторона: '))
+b = int(input('Вторая сторна: '))
+c = int(input('Третья сторона: '))
+p = (a+b+c)/2
+S = math.sqrt(p * (p-a) * (p-b) * (p-c))
+print('Площадь: ', S)
