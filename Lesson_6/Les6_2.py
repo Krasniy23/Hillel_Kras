@@ -1,9 +1,13 @@
-from datetime import datetime
+import time
 
-count_down = 3
-while (count_down):
-    print(count_down)
-    count_down -= 1
-    now = datetime.now()
-    time = now.strftime("%H:%M:%S")
-print("Time is now:", time)
+def time_count(func):
+    def counter():
+        for i in range(1, 4):
+            print(i)
+            time.sleep(i)
+        func()
+    return counter()
+
+@time_count
+def time_is_now():
+    print("Now " + time.strftime("%H:%M:%S"))
